@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-
+import 'screens/journal_screen.dart';
 void main() {
   runApp(const MoodlinkdApp());
 }
@@ -43,10 +43,7 @@ class _MainScreenState extends State<MainScreen> {
       title: 'Mood Graph',
       icon: Icons.mood,
     ),
-    PlaceholderScreen(
-      title: 'Journal',
-      icon: Icons.menu_book,
-    ),
+    JournalScreen(),
     PlaceholderScreen(
       title: 'AI Assistant',
       icon: Icons.auto_awesome,
